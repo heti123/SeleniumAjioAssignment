@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Tests">
+	<parameter name="browser" value="chrome" />
+	<test name="JeansTest">
+
+		<classes>
+			<class name="com.ajio.webautomation.JeansTest" />
+		</classes>
+	</test>
+</suite>
